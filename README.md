@@ -20,6 +20,16 @@ The dataset includes the following key fields:
 
 A SQLite table (`Retail`) was created to store this data, and a 20,000-row random sample was used to balance performance and insight depth.
 
+## SQL Techniques Demonstrated
+
+The project showcases a range of SQL skills:
+- **Data Aggregation**: `SUM`, `COUNT`, `AVG` for revenue, units sold, and order values.
+- **Filtering**: `WHERE` and `HAVING` to focus on relevant data (e.g., non-null CustomerIDs, multiple purchases).
+- **Grouping**: `GROUP BY` for country, product, and customer-level analysis.
+- **Subqueries and CTEs**: Used in Queries 3 and 4 to compute averages and order values.
+- **Conditional Logic**: `CASE` in Query 5 to categorize products.
+- **Sorting and Limiting**: `ORDER BY` and `LIMIT` to highlight top performers.
+- **String Functions**: Implicit use in `LIKE` for categorization in Query 5.
 ## Analysis and Insights
 
 The project executed six SQL queries, each addressing a specific business question. Below are the queries, their results (based on the provided output), and the insights derived.
@@ -159,17 +169,6 @@ The project executed six SQL queries, each addressing a specific business questi
 - Customers 15311 and 14606 also show repeat behavior, with 59 and 58 purchases.
 
 **Business Implication**: Engage these repeat customers with loyalty discounts or subscription models to maintain their frequent purchases.
-
-## SQL Techniques Demonstrated
-
-The project showcases a range of SQL skills:
-- **Data Aggregation**: `SUM`, `COUNT`, `AVG` for revenue, units sold, and order values.
-- **Filtering**: `WHERE` and `HAVING` to focus on relevant data (e.g., non-null CustomerIDs, multiple purchases).
-- **Grouping**: `GROUP BY` for country, product, and customer-level analysis.
-- **Subqueries and CTEs**: Used in Queries 3 and 4 to compute averages and order values.
-- **Conditional Logic**: `CASE` in Query 5 to categorize products.
-- **Sorting and Limiting**: `ORDER BY` and `LIMIT` to highlight top performers.
-- **String Functions**: Implicit use in `LIKE` for categorization in Query 5.
 
 ## Conclusion
 
